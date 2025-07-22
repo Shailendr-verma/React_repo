@@ -8,6 +8,16 @@ const [counter, setCounter] = useState(0);
   const addValue = () => {
     setCounter(counter + 1)
     console.log(counter);
+
+
+    //   best way to update the state is to use the function form of setCounter
+     
+    // setCounter(counter +1)
+    // setCounter((previousCounter) => previousCounter + 1);
+    // setCounter((previousCounter) => previousCounter + 1);
+
+    // setCounter((previousCounter) => previousCounter + 1);
+
   }
  // remove button 
   const removeValue = () => {
